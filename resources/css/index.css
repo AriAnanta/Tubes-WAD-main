@@ -1,0 +1,9 @@
+#sidebar-wrapper {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.sidebar-heading {
+    font-family: "Zen Dots", cursive;
+    font-size: 1.5rem;
+}

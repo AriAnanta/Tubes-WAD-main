@@ -1,0 +1,41 @@
+/* Sidebar link hover effect */
+.sidebar-link {
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    padding: 10px;
+}
+.sidebar-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    text-decoration: none;
+    transform: translateX(5px);
+}
+
+/* Button Gradient */
+.btn-gradient {
+    background: linear-gradient(45deg, #28a745, #218838);
+    border: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.btn-gradient:hover {
+    background: linear-gradient(45deg, #218838, #28a745);
+    transform: scale(1.05);
+}
+
+/* Card hover animation */
+.hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Gradient background */
+.bg-gradient {
+    background: linear-gradient(120deg, #28a745, #218838);
+}
+#emissionsChart {
+    width: 100% !important; /* Memastikan grafik mengambil lebar penuh */
+    height: 400px; /* Sesuaikan tinggi sesuai kebutuhan */
+}
