@@ -12,13 +12,14 @@
 </head>
 <body>
     <div class="d-flex flex-column flex-lg-row vh-100">
-        <!-- Sidebar -->
+        <!-- Sidebar untuk layar besar -->
         <div class="d-none d-lg-block">
             @include('layouts.sidebar')
         </div>
-        <!-- Navbar -->
+        
+        <!-- Area Konten -->
         <div class="flex-grow-1 overflow-auto">
-            @include('layouts.navbar') <!-- Navbar digunakan untuk semua layar -->
+            @include('layouts.navbar') <!-- Navbar -->
             <main class="container-fluid mt-4">
                 @yield('content') <!-- Konten halaman -->
             </main>

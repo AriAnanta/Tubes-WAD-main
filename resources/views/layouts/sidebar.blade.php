@@ -10,7 +10,10 @@
             <a href="#" class="nav-link text-white"><i class="bi bi-gear"></i> Settings</a>
         </li>
         <li class="nav-item">
-            <a href="#" class="nav-link text-white"><i class="bi bi-cloud-upload"></i> Input Emisi Karbon</a>
+            <a href="{{ route('emisicarbon.create') }}" class="sidebar-link">
+                <i class="bi bi-cloud-upload"></i> Input Emisi Karbon
+            </a>
+            
         </li>
     </ul>
 </div>
