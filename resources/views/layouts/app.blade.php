@@ -16,13 +16,9 @@
         <div class="d-none d-lg-block">
             @include('layouts.sidebar')
         </div>
-        <!-- Navbar for smaller screens -->
-        <div class="d-lg-none">
-            @include('layouts.navbar')
-        </div>
-        <!-- Content Area -->
+        <!-- Navbar -->
         <div class="flex-grow-1 overflow-auto">
-            @include('layouts.navbar') <!-- Navbar for large screens -->
+            @include('layouts.navbar') <!-- Navbar digunakan untuk semua layar -->
             <main class="container-fluid mt-4">
                 @yield('content') <!-- Konten halaman -->
             </main>
