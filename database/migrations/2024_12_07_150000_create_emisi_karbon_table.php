@@ -19,9 +19,9 @@ return new class extends Migration
             $table->integer('kadar_emisi_karbon');
             $table->string('deskripsi');
             $table->string('status');
-            $table->foreignId('kode_manager')->constrained('managers')->onDelete('cascade');
-            $table->foreignId('kode_user')->constrained('penggunas')->onDelete('cascade');
-            $table->foreignId('kode_admin')->constrained('admins')->onDelete('cascade');
+            $table->foreignId('kode_manager')->nullable()->constrained('managers')->onDelete('cascade');
+            $table->foreignId('kode_user')->nullable()->constrained('penggunas')->onDelete('cascade');
+            $table->foreignId('kode_admin')->nullable()->constrained('admins')->onDelete('cascade');
             $table->timestamps();
         });
     }

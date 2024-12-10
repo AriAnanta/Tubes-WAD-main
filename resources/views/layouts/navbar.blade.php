@@ -8,7 +8,7 @@
         </button>
         
         <!-- Nama Brand -->
-        <a class="navbar-brand mb-0 h1" href="#" style="font-family: 'Zen Dots', cursive;">GreenLedger</a>
+        <a class="navbar-brand mb-0 h1" href="#" style="font-family: 'Zen Dots', cursive;"></a>
 
         <!-- Dropdown Profil -->
         <div class="d-flex align-items-center">
